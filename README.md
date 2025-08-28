@@ -23,16 +23,24 @@
 - [Render](https://render.com/)
 - [UptimeRobot](https://uptimerobot.com/)（監控機器人用的，不一定需要）
 
+## 編譯工具準備
+
+- [Node.js](https://nodejs.org/en)（`JavaScript`執行環境）
+- [Visual Studio Code](https://code.visualstudio.com/download)（編譯器）
+- 一個空資料夾，用來放程式
+
 ## 步驟
 
 1. 安裝套件
+
+   進入你放程式的資料夾跑終端機，安裝這些套件
    ```
    npm install discord.js
    npm install express
    npm install dotenv
    ```
 
-2. 取得 Token，建立 env 檔
+3. 取得 Token，建立 env 檔
 
    - `Discord`的`Token`：
      1. [Discord Developer Portal](https://discord.com/developers/applications/) > 你創的角色 > Bot > Token > Reset Token
@@ -71,7 +79,7 @@
    docker build -t 你的github名稱/你的機器人名稱:v1 .
    docker push 你的github名稱/你的機器人名稱:v1
    ```
-   之後有修改程式，也是跑這兩行就能更新。
+   之後有修改程式，也是跑這兩行就能更新。更新前記得先打開應用程式`Docker Desktop`。
    
 7. 部署到 Render、UptimeRobot
 
