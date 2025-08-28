@@ -3,7 +3,7 @@
 
 ## 簡介
 
-使用 Docker、Render 部署，可同時在 Discord 與 Line 使用的簡易骰子機器人。
+使用`Docker`、`Render`，可同時在`Discord`與`Line`使用的簡易骰子機器人。
 
 ## 參考資料
 
@@ -53,8 +53,7 @@
 
    機器人回覆邏輯都在`replies.js`，還有一點點在`discordbot.js`，是在特定伺服器使用自訂表情符號的功能。
    
-   改好之後輸入以下指令進行本地測試。
-   
+   改好之後輸入以下指令進行本地測試：
    ```
    npm start
    ```
@@ -63,18 +62,20 @@
 
 5. 上傳 Docker hub
 
-   可以先用`docker -v`測試一下是否有成功安裝`Docker`。
+   感覺做得差不多了就能上傳了，可以先用`docker -v`測試一下是否有成功安裝`Docker`。
    ```
    docker build -t 你的github名稱/你的機器人名稱:v1 .
    docker push 你的github名稱/你的機器人名稱:v1
    ```
-6. 部署到 Render、UptimeRobot
+   之後有修改程式，也是跑這兩行就能更新。
+   
+7. 部署到 Render、UptimeRobot
 
    這邊就跟程式本體沒關係了，[Render 部署 Discord Bot](https://hackmd.io/@3Q1PwoaDQXSlvMLWWzaBww/S1pEto_ap) 有非常詳細的說明。
 
    部署成功之後，`Discord`機器人就可以跟本地測試時一樣自由使用。
 
-7. 啟用 Line Webhook
+8. 啟用 Line Webhook
 
    部署到`Render`後會有一串網址，大概會是`https://你的機器人名稱-v1.onrender.com`，在後面加上`/line`就能切換成`Line`機器人的模式。
 
