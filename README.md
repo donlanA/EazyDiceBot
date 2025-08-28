@@ -11,7 +11,7 @@
 - [RoboYabaso](https://github.com/retsnimle/RoboYabaso)（大部分的程式架構來自於此）
 - [如何建立自己的Line骰子機器人](https://docs.google.com/document/d/1dYnJqF2_QTp90ld4YXj6X8kgxvjUoHrB4E2seqlDlAk/edit)
 - [Render 部署 Discord Bot](https://hackmd.io/@3Q1PwoaDQXSlvMLWWzaBww/S1pEto_ap)
-- GitHub Copliot（AI太好用了你們知道嗎）
+- GitHub Copilot（AI太好用了你們知道嗎）
 
 ## 會用到的網站
 
