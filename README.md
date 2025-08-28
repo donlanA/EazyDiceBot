@@ -34,7 +34,10 @@
 
 2. 取得 Token，建立 env 檔
 
-   - `Discord`的`Token`：[Discord Developer Portal](https://discord.com/developers/applications/) > 你創的角色 > Bot > Token > Reset Token
+   - `Discord`的`Token`：
+     1. [Discord Developer Portal](https://discord.com/developers/applications/) > 你創的角色 > Bot > Token > Reset Token
+     2. 此外，同樣在`Bot`裡面，把`Message Content Intent`打開，機器人才能傳訊息
+     3. 在`OAuth2`勾選`Bot`跟你要的權限，取得機器人的邀請連結。詳見[Render 部署 Discord Bot](https://hackmd.io/@3Q1PwoaDQXSlvMLWWzaBww/S1pEto_ap)
    
    - `Line`的`Token`：
      1. [Line Offical Account Manager](https://manager.line.biz/) > 你創的角色 > 右上角的設定 > Messaging API > 開始使用
