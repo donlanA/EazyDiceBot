@@ -49,7 +49,8 @@
    
    - `Line`的`Token`：
      1. [Line Offical Account Manager](https://manager.line.biz/) > 你創的角色 > 右上角的設定 > Messaging API > 開始使用
-     2. 接著到 [Line Developer](https://developers.line.biz/console/) > 你創的角色 > Messaging API > 滑到最下面 Channel access token > 按旁邊的 issue
+     2. 這邊可以順便去回應設定 > 回應功能 > 把自動回應訊息關掉
+     3. 接著到 [Line Developer](https://developers.line.biz/console/) > 你創的角色 > Messaging API > 滑到最下面 Channel access token > 按旁邊的 issue
   
    `Discord`跟`Line`的步驟做完都會產生一串亂碼，就是各自的`Token`。
 
